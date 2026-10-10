@@ -1,6 +1,6 @@
 {
     "name": "SkyheimCompat",
-    "version_number": "1.1.15",
+    "version_number": "1.1.18",
     "website_url": "https://discord.gg/cjayride",
     "description": "Required companion for Skyheim 1.0 Fix. Localization, cooldowns, SeneaL UI HUD compat, craft crash fix, and rune config.",
     "dependencies": []

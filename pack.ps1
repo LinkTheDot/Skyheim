@@ -1,7 +1,7 @@
 # Builds Thunderstore zips with the correct per-package icon and CHANGELOG.md.
 param(
-    [string] $CompatVersion = "1.1.15",
-    [string] $FixVersion = "1.3.29"
+    [string] $CompatVersion = "1.1.18",
+    [string] $FixVersion = "1.3.30"
 )
 
 $ErrorActionPreference = "Stop"

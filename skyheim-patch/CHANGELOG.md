@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.18
+
+- Rune of Healing is a configurable heal-over-time. Default is 90% of Skyheim's amount (about 36 HP at quality 1 before Elemental Magic skill), spread over 8 seconds, with the status icon held for at least 10 seconds.
+- Heal Radius and Warmth Radius. Skyheim's areas are 5 m and 30 m. Warmth is an area by design.
+- Optional Debug Logging for a Rune of Healing cast. It prints whether logging is on and which config file was read.
+- Immolation aura hits do not build Epic Loot Eikthyr Shocking Charge. The aura explosion plays once per tick, with Aura Audio Volume Scale.
+- The Rune Altar can eitr-imbue armor that Epic Loot has already enchanted. Extra Recipes adds the OdinHorse cloth sets and the Horse Trophy Helmet.
+
 ## 1.1.15
 
 - Rune cooldown timers draw on the hotbar and in the inventory. The overlay was being created switched off, so the seconds never appeared.

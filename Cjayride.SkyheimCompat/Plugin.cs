@@ -19,7 +19,7 @@ namespace Cjayride.SkyheimCompat
     {
         public const string PluginGUID = "cjayride.skyheimcompat";
         public const string PluginName = "Cjayride Skyheim Compat";
-        public const string PluginVersion = "1.1.15";
+        public const string PluginVersion = "1.1.18";
         internal const string SenealGuid = "seneaL.valheim.ui";
 
         internal static Plugin Instance;
@@ -40,7 +40,14 @@ namespace Cjayride.SkyheimCompat
             AltarPanelFix.Apply(_harmony);
             CooldownPrefabFix.Replace();
             MagicSkillBalance.Bind(Config);
+            HealBalance.Bind(Config);
+            RuneAuraRadius.Bind(Config);
+            HealDiagnostics.Bind(Config);
+            AltarImbueCompat.Bind(Config);
+            ImmolateAuraGuard.Bind(Config);
             _harmony.PatchAll();
+            ImmolateAuraGuard.Apply(_harmony);
+            HealDiagnostics.Apply(_harmony, Config.ConfigFilePath);
             SenealCooldownOverlay.Init(_harmony);
             ApplySkyheimLocalization();
             Logger.LogInfo($"{PluginName} {PluginVersion} loaded.");

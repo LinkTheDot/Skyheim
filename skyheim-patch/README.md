@@ -20,6 +20,13 @@ If makail ever releases an official update, **please switch back to the original
 
 ---
 
+### Latest Update (1.1.18)
+
+- Rune of Healing is a configurable heal-over-time (default about 36 HP at quality 1, over 8 seconds).
+- Heal and Warmth area radii are configurable. Skyheim's sizes are 5 m and 30 m.
+- Immolation aura hits no longer build Epic Loot Eikthyr Shocking Charge, and the explosion sound can be scaled down.
+- The Rune Altar can eitr-imbue Epic Loot enchanted armor, plus OdinHorse cloth armor and the Horse Trophy Helmet.
+
 ### Latest Update (1.1.15)
 
 - Rune cooldown timers show on the hotbar and in the inventory.

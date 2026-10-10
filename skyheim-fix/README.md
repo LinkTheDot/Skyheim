@@ -33,6 +33,11 @@ Features include:
 
 ---
 
+### Latest Update (1.3.30)
+
+- Requires Skyheim Compat 1.1.18. Compat lists no dependencies.
+- skyheim.dll behavior is unchanged from 1.3.29. This version exists so the package depends on the Compat build with the healing rune, immolation, and altar imbue changes.
+
 ### Latest Update (1.3.29)
 
 - Requires Skyheim Compat 1.1.15. Compat lists no dependencies.
