@@ -33,6 +33,11 @@ Features include:
 
 ---
 
+### Latest Update (1.3.31)
+
+- Requires Skyheim Compat 1.1.19. Compat lists no dependencies.
+- skyheim.dll behavior is unchanged from 1.3.30. This version exists so the package depends on the Compat build that heals the caster when the healing area misses them.
+
 ### Latest Update (1.3.30)
 
 - Requires Skyheim Compat 1.1.18. Compat lists no dependencies.

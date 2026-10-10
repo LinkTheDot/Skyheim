@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.19
+
+- If the Rune of Healing area misses its caster, the caster still receives the heal. A hit that already lands is left alone, and allies are unchanged.
+
 ## 1.1.18
 
 - Rune of Healing is a configurable heal-over-time. Default is 90% of Skyheim's amount (about 36 HP at quality 1 before Elemental Magic skill), spread over 8 seconds, with the status icon held for at least 10 seconds.

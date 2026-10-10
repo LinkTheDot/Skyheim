@@ -20,6 +20,10 @@ If makail ever releases an official update, **please switch back to the original
 
 ---
 
+### Latest Update (1.1.19)
+
+- If the Rune of Healing area misses its caster, the caster still receives the heal.
+
 ### Latest Update (1.1.18)
 
 - Rune of Healing is a configurable heal-over-time (default about 36 HP at quality 1, over 8 seconds).

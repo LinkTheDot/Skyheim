@@ -8,7 +8,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>Cjayride.SkyheimCompat</AssemblyName>
     <RootNamespace>Cjayride.SkyheimCompat</RootNamespace>
-    <Version>1.1.18</Version>
+    <Version>1.1.19</Version>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>$(MSBuildThisFileDirectory)..\dist\compat\</OutputPath>
   </PropertyGroup>

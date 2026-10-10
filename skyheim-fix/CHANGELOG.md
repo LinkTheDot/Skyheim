@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.31
+
+- Requires Skyheim Compat 1.1.19. Compat has no dependencies of its own.
+- No change to skyheim.dll behavior. The version moved so this package depends on the Compat build that heals the caster when the healing area misses them.
+
 ## 1.3.30
 
 - Requires Skyheim Compat 1.1.18. Compat has no dependencies of its own.
