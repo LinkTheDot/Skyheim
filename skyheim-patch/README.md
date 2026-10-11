@@ -20,6 +20,13 @@ If makail ever releases an official update, **please switch back to the original
 
 ---
 
+### Latest Update (1.1.24)
+
+- The Rune Altar status line says how many Eitr Shards the armor needs, how many are in the chest, and how long the imbue takes. The timer still starts only when the full amount is there and the chest is closed.
+- With SeneaL UI, that line is the chest subtitle. A Fenris Coat with 12 shards reads "Need 35, have 12, 5 min".
+- After an imbue finishes, it says "Finished adding Eitr" while that piece is still in the chest. Opening it later with an imbued piece says "Item already imbued".
+- The status line updates when the chest contents change, when the timer second changes, or once when an imbue finishes.
+
 ### Latest Update (1.1.19)
 
 - If the Rune of Healing area misses its caster, the caster still receives the heal.

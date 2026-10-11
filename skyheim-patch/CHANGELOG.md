@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.1.24
+
+- The Rune Altar status line no longer checks every altar every frame. It updates when the chest contents change, when the timer second changes, or once when an imbue finishes.
+
+## 1.1.23
+
+- After an imbue finishes, the Rune Altar says "Finished adding Eitr" while that piece is still in the chest. Opening it later with an imbued piece says "Item already imbued".
+
+## 1.1.22
+
+- The SeneaL chest subtitle for the Rune Altar is short enough to fit. A Fenris Coat with 12 shards reads "Need 35, have 12, 5 min".
+
+## 1.1.21
+
+- With SeneaL UI, the Rune Altar shard cost, how many shards are in the chest, and the wait time show on the chest subtitle. SeneaL hides Skyheim's own altar text.
+
+## 1.1.20
+
+- The Rune Altar status line says how many Eitr Shards the armor needs, how many are in the chest, and how long the imbue takes. The timer still starts only when the full amount is there and the chest is closed.
+
 ## 1.1.19
 
 - If the Rune of Healing area misses its caster, the caster still receives the heal. A hit that already lands is left alone, and allies are unchanged.

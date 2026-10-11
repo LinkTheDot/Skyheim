@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.32
+
+- Requires Skyheim Compat 1.1.24. Compat has no dependencies of its own.
+- No change to skyheim.dll behavior. The version moved so this package depends on the Compat build that shows the Rune Altar shard cost, chest count, and wait time.
+
 ## 1.3.31
 
 - Requires Skyheim Compat 1.1.19. Compat has no dependencies of its own.
