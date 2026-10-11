@@ -26,7 +26,10 @@ namespace Cjayride.SkyheimCompat
             "ArmorHorseClothChest_T2:25:25:0:0.1:300, " +
             "ArmorHorseClothLegs_T2:18:15:0:0.1:300, " +
             "ArmorHorseClothHelmet_T2:10:10:0:0.1:120, " +
-            "rae_OdinHorse_Helmet:6:5:0.2:0.5:60";
+            "rae_OdinHorse_Helmet:6:5:0.2:0.5:60, " +
+            "ArmorLoxChest:25:25:0:0.1:300, " +
+            "ArmorLoxLegs:18:15:0:0.1:300, " +
+            "HelmetLox:10:10:0:0.1:120";
 
         private static ConfigEntry<string> _extraRecipes;
         private static readonly PropertyInfo TuningProperty = AccessTools.Property(typeof(SkyheimAltar), "Tuning");
@@ -40,8 +43,9 @@ namespace Cjayride.SkyheimCompat
                 "Extra armor the Skyheim altar can eitr-imbue, comma separated. Format per entry: " +
                 "PrefabName:ShardsRequired:MaxEitr:EitrRegen:ArmorPenalty:Seconds " +
                 "(regen and armor penalty are fractions, e.g. 0.2 = 20%). Defaults cover the OdinHorse " +
-                "Skogarmadr (T1) and Drapmadr (T2) sets and the Horse Trophy Helmet. Entries for prefabs Skyheim " +
-                "already supports replace Skyheim's values.");
+                "Skogarmadr (T1) and Drapmadr (T2) sets, the Horse Trophy Helmet, and the Valheim 1.0 Lox Fur " +
+                "set (ArmorLoxChest, ArmorLoxLegs, HelmetLox), which Skyheim's built-in recipe list predates " +
+                "and does not recognize. Entries for prefabs Skyheim already supports replace Skyheim's values.");
         }
 
         [HarmonyPatch(typeof(SkyheimAltarTuning), nameof(SkyheimAltarTuning.RuntimeDeserialize))]
